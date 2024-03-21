@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+    background-color:#f7c4ec;
+}
+#container{
+    position: relative;
+    transform: translateY(25%);
+    text-align: center;
+}
+p{
+    font-size: xx-large;
+}
+label{
+    font-size: xx-large;
+    cursor: pointer;
+}
+input{
+    font-size: xx-large;
+    background-color:#efebf1;
+}
+input[type="radio"]{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+button{
+    font-size: x-large;
+    padding: 10px;
+    background-color:#c835f5;
+    border: #363636;
+    border-radius: 10%;
+    cursor: pointer;
+}
+button:active{
+    background-color: #8328b4;
+}
+#answer{
+    color:#8328b4;
+}
